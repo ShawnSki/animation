@@ -8,7 +8,17 @@ function App() {
       <Nav />
       <div className='heroContainer'>
         <h2>Welcome To Our Studio!</h2>
-        <h1>IT'S NICE TO MEET YOU</h1>
+        <div className='boxText'>
+          <h1>IT'S NICE TO MEET YOUR</h1>
+          <div className='boxTextAnimate'>
+            <span>PACK</span>
+            <span>TEAM</span>
+            <span>FAMILY</span>
+            <span>GANG</span>
+          </div>
+        </div>
+      </div>
+      <div>
         <button>TELL ME MORE</button>
       </div>
     </div>
