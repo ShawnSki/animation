@@ -1,0 +1,74 @@
+
+
+.navContainer {
+    background-color: rgba(255, 0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5em;
+}
+
+.logoContainer {
+    min-width: 19em;
+}
+
+.brandLogo {
+    color: #fed035;
+    font-family: 'Damion', cursive;
+    font-size: 44px;
+}
+
+
+.linkers {
+    display: flex;
+}
+
+.desktopNav {
+    
+}
+
+.desktopNav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.desktopNav li {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: .2em;
+    list-style: none;
+    margin-left: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mobileNav {
+    display: none;
+    padding: .4em;
+    background: #fed035;
+}
+.mobileLine {
+    height: 1px;
+    width: 20px;
+    background: #fff;
+}
+.mobileLine:nth-child(odd) {
+    margin: .5em 0;
+}
+.mobileNav button {
+    background: none;
+    border: none;
+}
+
+
+@media (max-width: 990px) {
+    .navContainer {
+        background: #202428;
+    }
+    .desktopNav {
+        display: none;
+    }
+    .mobileNav {
+        display: initial;
+    }
+}
